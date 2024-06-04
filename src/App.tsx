@@ -32,7 +32,7 @@ const App: React.FC = () => {
 
   return (
     <Container>
-      <h1>ToDo App</h1>
+      <h1>TODO LIST</h1>
       <TodoInput addTask={addTask} />
       <Tabs value={filter} onChange={(e, value) => setFilter(value)}>
         <Tab label="All" value="all" />
